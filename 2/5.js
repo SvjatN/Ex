@@ -1,6 +1,7 @@
-let p = -2;
+let p = 12;
 
- console.log((Math.ceil(p) - Math.floor(p)) == 0 ?"Yes":"No" );
+console.log((((Math.ceil(p) - p) + p) == p) ? "Yes" : "No");
+
 
 
 
