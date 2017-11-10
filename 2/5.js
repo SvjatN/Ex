@@ -1,6 +1,6 @@
 let p = 12;
 
-console.log((((Math.ceil(p) - p) + p) == p) ? "Yes" : "No");
+console.log( (p - Math.floor(p) == 0) ? "Yes" : "No");
 
 
 
