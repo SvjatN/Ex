@@ -1,6 +1,7 @@
-let p = 12;
+let p = 12.34;
 
-console.log( (p - Math.floor(p) == 0) ? "Yes" : "No");
+console.log((Math.floor(p) == p) ? "Yes" : "No");
+
 
 
 
