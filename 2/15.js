@@ -7,11 +7,11 @@ point2 = {
     y: 2
 };
 
-let tempSize = Math.sqrt(Math.pow( (point2.x - point1.x),2) + Math.pow((point2.y - point1.y),2));
+let hipotenuze = Math.sqrt(Math.pow( (point2.x - point1.x),2) + Math.pow((point2.y - point1.y),2));
 
 let template  = Math.sqrt(5) ;
 
-if(tempSize == template ){
+if(hipotenuze == template ){
     console.log("Yes");
 } else {
     console.log("No")
