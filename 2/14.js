@@ -10,6 +10,3 @@ let point2 = {
 }; 
 let temp = (Math.abs(point1.x - point2.x )== Math.abs(point1.y - point2.y));
 console.log( temp ? "Yes": "NO");
-    
-
-

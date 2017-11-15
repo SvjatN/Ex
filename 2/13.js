@@ -8,6 +8,7 @@ for (let i = 0; i < arr.length - 1; i++) {
         break;
     }
 }
+
 if (flag) {
     console.log("yes");
 } else {
