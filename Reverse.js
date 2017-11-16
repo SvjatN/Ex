@@ -9,16 +9,13 @@ function reverseNew(arr) {
 }
 //console.log(reverse([1, 9, 34, 4]));
 
-let arr = [12, 34, 5, 0,86] ;
-    
-    
-    for (let i = arr.length -1 ;i>=0 ; i--) {
-        arr.push(arr[i]); 
+let arr = [1, 2, 3, 4, 5] ;
+    for (let i =0;i<=arr.length /2;i++) {
+
+           let temp = arr[arr.length -i -1];
+           arr[arr.length  -i  -1] = arr[i];
+           arr[i] = temp;
     }
-    for(let i = 0;i< arr.length/2 +1 ;i++){
-       var removed = arr.slice(i);
-    }
-    arr = removed;
 
 console.log(arr);
 
