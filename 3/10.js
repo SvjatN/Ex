@@ -1,10 +1,13 @@
-let min = 1;
-let max = 5;
+let min = 10;
+let max = 13;
 let sum = 0;
-
+let sumPair =0;
 for(let i = min;i<=max;i++){
-   sum = sum + i;
+    if(i%2 == 0){
+     sum  += i;
+     sumPair++;
+    }
 }
 
-let average =(sum/(max-(min-1)));
+let average =(sum/sumPair);
 console.log(average.toFixed(2));
