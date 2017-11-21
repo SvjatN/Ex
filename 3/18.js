@@ -1,5 +1,5 @@
-let n = 11203;
+let num = 11203;
 
-arr = String(n).length;
+arr = String(num).length;
 
 console.log(arr);
