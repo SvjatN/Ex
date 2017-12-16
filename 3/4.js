@@ -9,5 +9,5 @@ for(let i=0;i<N;i++){
 }
 console.log(N);
 console.log(arr.join(" "));
-console.log(arr.filter(item => item % 5 == 0  ).reduce( (sum, current, arr) =>  sum + current , 0 ));
+console.log(arr.filter(item => item % 5 == 0  ).reduce( (sum, current) =>  sum + current , 0 ));
 

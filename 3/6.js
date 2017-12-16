@@ -6,6 +6,6 @@ for (let i = 0; i < N; i++) {
 }
 
 console.log(N);
-console.log(arr.filter((item) => Math.sqrt(item) == Math.floor(Math.sqrt(item)))
+console.log(arr.filter((item) =>Math.sqrt(item) == Math.floor(Math.sqrt(item)))
   .filter((item) => item > 0)
   .join(" "));
